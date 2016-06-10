@@ -41,5 +41,5 @@ int main(int argc, char *argv[])
                         }
              }
          T2 = omp_get_wtime();
-         cout << "fiosExecucao =" << np << " Intervalo=" << nr <<  ": tempo -> "<< (T2-T1)*1e6 << " usecs\n";
+         cout << "fiosExecucao =" << np << " Intervalo=" << nr <<  "\n tempo -> "<< (T2-T1)*1e6 << " usecs\n";
  }
